@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://polarization-political-trust.netlify.app/"
 languageCode = "en-us"
 title = "Polarization and Political Trust"
 theme = "blackburn"
