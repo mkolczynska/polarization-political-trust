@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polarization and Political Trust</title>
+    <link>/</link>
+    <description>Recent content on Polarization and Political Trust</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
+    <lastBuildDate>Wed, 11 Mar 2020 12:46:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Availability of political trust items in European surveys</title>
+      <link>/post/political-trust-items/</link>
+      <pubDate>Wed, 11 Mar 2020 12:46:00 +0000</pubDate>
+      
+      <guid>/post/political-trust-items/</guid>
+      <description>Availability across projectsAvailability across countriesThe first step towards harmonization is to learn which surveys have the necessary items - in this case about trust in different institutions: the government, national parliament, political parties, justice system, police, army, press, TV, and religious institutions.
+This information, for 13 cross-national survey projects listed here, from 1939 national surveys from 39 European countries, is provided in this file:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>The purpose of the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective” is to advance the research on political trust by (1) developing a multi-level theoretical model of the causes and consequences of political trust that takes into account both the level of trust in society and its distributional properties, such as polarization, (2) creating a country time series of measures of political trust levels and polarization derived from existing individual-level survey data via Bayesian dynamic latent trait modeling, and (3) applying appropriate causal and multi-level modeling techniques to the newly constructed time series, as well as to the existing cross-national and panel survey data.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>mkolczynska at isppan.waw.pl</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/data/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>Asia-Europe Survey (ASES): https://www.icpsr.umich.edu/web/ICPSR/studies/22324
+Candidate Countries Eurobarometer (CCEB): https://ec.europa.eu/commfrontoffice/publicopinion/archives/cceb2_en.htm
+Consolidation of Democracy in Central and Eastern Europe (CDCEE): https://search.gesis.org/research_data/ZA4054
+Eurobarometer (EB): https://ec.europa.eu/commfrontoffice/publicopinion
+European Quality of Life Survey (EQLS): https://www.eurofound.europa.eu/surveys/european-quality-of-life-surveys
+European Social Survey (ESS): https://www.europeansocialsurvey.org/
+International Social Survey Programme (ISSP): http://www.issp.org/
+Integrated and United: A Quest for a Citizenship in an Ever Closer Europe (INTUNE): https://www.mzes.uni-mannheim.de/d7/en/datasets/integrated-and-united-a-quest-for-a-citizenship-in-an-ever-closer-europe
+Life in Transition Survey (LITS): https://www.ebrd.com/what-we-do/economic-research-and-data/data/lits.html
+New Baltic Barometer (NBB): http://www.cspp.strath.ac.uk/catalog2_0.html
+New Europe Barometer (NEB): http://www.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>/post/welcome/</link>
+      <pubDate>Thu, 05 Mar 2020 19:18:00 +0000</pubDate>
+      
+      <guid>/post/welcome/</guid>
+      <description>Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
+You can learn more about the project and about the source data.
+The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+---
+title: "Welcome"
+author: "Marta Kołczyńska"
+date: 2020-03-05T19:18:00
+topic: ["data"]
+tags: ["welcome"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+
+Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
+
+You can learn more [about the project](/about/) and about the source [data](/data/).
+
+The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.
+

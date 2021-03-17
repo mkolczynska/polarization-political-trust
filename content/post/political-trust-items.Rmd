@@ -1,0 +1,122 @@
+---
+title: "Availability of political trust items in European surveys"
+author: "Marta Kołczyńska"
+date: 2020-03-11T12:46:00
+topic: ["data"]
+tags: ["data availability"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+The first step towards harmonization is to learn which surveys have the necessary items - in this case about trust in different institutions: the government, national parliament, political parties, justice system, police, army, press, TV, and religious institutions.
+
+This information, for 13 cross-national survey projects listed [here](/data/), from 1939 national surveys from 39 European countries, is provided in this file:
+
+A snippet is below. 
+
+
+```{r packages-data, include = FALSE}
+library(tidyverse)
+library(viridis)
+library(countrycode)
+library(knitr)
+library(kableExtra)
+
+data <- readRDS("data/political_trust_items.rds")
+```
+
+
+
+```{r snippet}
+data[1:6, 1:7] %>%
+  kable(col.names = c("Country", "Project", "Wave", "Year",
+                              "Trust in parliament", "Trust in justice system",
+                              "Trust in the army")) %>%
+  kable_paper("striped", full_width = F)
+```
+
+
+The data contain the name of the country, name of the survey project, its wave and year of fieldwork, and sample means of various trust items after rescaling them to a common 0-10 scale. The rescaling is necessary, because in different projects trust items come with response scales of different lengths. Note that this linear rescaling does not make the scales comparable, so their means will not be comparable either. One possible solution to the lack of comparability of means of trust measured with different response scales is provided in this [paper](https://osf.io/preprints/socarxiv/3v5g7/).
+
+Missing values mean that the item was not available in the given survey. 
+
+## Availability across projects
+
+In the plot below, green tiles indicate the availability of the given trust item at least in some surveys. 
+
+```{r project-var, fig.height = 2.5, fig.width = 8}
+data %>%
+  gather(var, value, starts_with("trust"), na.rm = TRUE) %>%
+  ungroup() %>%
+  count(t_project, var) %>%
+  mutate(var_label = gsub("^trust_|_11$", "", var),
+         var_label = plyr::mapvalues(var_label,
+                                     c("army", "gov", "jus", "parl", "police", 
+                                       "polpart", "press", "rel", "tv"),
+                                     c("army", "government", "justice system", "parliament",
+                                       "police", "political parties",
+                                       "press", "religious institutions", "TV"))) %>%
+  ggplot(., aes(x = t_project, y = reorder(var_label, desc(var_label)))) +
+  geom_tile(fill = "forestgreen", alpha = 0.5) +
+  ylab("") +
+  xlab("") +
+  theme_minimal()
+```
+
+## Availability across countries
+
+Availability of trust items in different cross-national surveys varies quite a lot across countries. The plot below shows the number of surveys featuring the item on trust in parliament for each country and year. Some countries are pretty well covered, especially those in Central-Eastern Europe: Czechia, Hungary, Poland and Slovakia. Other countries have very poor coverage, especially Belarus, Bosnia-Herzegovina, and Moldova.
+
+Most country-years, for which data are available, have only one survey, but some have more than one, and three country-years have as many as six surveys with the item on trust in parliament.
+
+```{r trust-parliament, fig.height = 6}
+data %>%
+  drop_na(trust_parl_11) %>%
+  count(country, t_year) %>%
+  ggplot(., aes(y = reorder(country, desc(country)), x = t_year, fill = factor(n))) +
+  geom_tile() +
+  ggtitle("Trust in parliament") +
+  scale_x_continuous(name = "Survey year", breaks = seq(1990, 2020, 5)) +
+  scale_fill_viridis_d(name = "N surveys", direction = -1) +
+  ylab("") +
+  theme_minimal()
+```
+
+
+Which surveys constitute country coverage for a given country? Here is Poland as an example. 
+
+```{r trust-parliament-pl, fig.height = 2.5}
+data %>%
+  filter(country == "Poland") %>%
+  drop_na(trust_parl_11) %>%
+  count(country, t_year, t_project) %>%
+  ggplot(., aes(y = reorder(t_project, desc(t_project)), x = t_year, fill = factor(n))) +
+  geom_tile() +
+  ggtitle("Trust in parliament") +
+  scale_x_continuous(name = "Survey year", breaks = seq(1990, 2020, 5)) +
+  scale_fill_viridis_d(name = "N surveys", direction = -1) +
+  ylab("") +
+  theme_minimal()
+```
+
+
+Trust in parliament is probably the most popular trust item in political science research. However, trust in other institutions can also be studied over time by putting together different survey projects, as the below plot on trust in the police shows.
+
+```{r trust-police, fig.height = 6}
+data %>%
+  drop_na(trust_police_11) %>%
+  count(country, t_year) %>%
+  ggplot(., aes(y = reorder(country, desc(country)), x = t_year, fill = factor(n))) +
+  geom_tile() +
+  ggtitle("Trust in the police") +
+  scale_x_continuous(name = "Survey year", breaks = seq(1990, 2020, 5)) +
+  scale_fill_viridis_d(name = "N surveys", direction = -1) +
+  ylab("") +
+  theme_minimal()
+```
+

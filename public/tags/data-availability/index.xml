@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data availability on Polarization and Political Trust</title>
+    <link>/tags/data-availability/</link>
+    <description>Recent content in data availability on Polarization and Political Trust</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
+    <lastBuildDate>Wed, 11 Mar 2020 12:46:00 +0000</lastBuildDate><atom:link href="/tags/data-availability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Availability of political trust items in European surveys</title>
+      <link>/post/political-trust-items/</link>
+      <pubDate>Wed, 11 Mar 2020 12:46:00 +0000</pubDate>
+      
+      <guid>/post/political-trust-items/</guid>
+      <description>Availability across projectsAvailability across countriesThe first step towards harmonization is to learn which surveys have the necessary items - in this case about trust in different institutions: the government, national parliament, political parties, justice system, police, army, press, TV, and religious institutions.
+This information, for 13 cross-national survey projects listed here, from 1939 national surveys from 39 European countries, is provided in this file:</description>
+    </item>
+    
+  </channel>
+</rss>

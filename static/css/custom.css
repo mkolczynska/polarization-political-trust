@@ -1,0 +1,13 @@
+/* reduce font size in code chunks */
+
+
+pre, code {
+  font-size: 10pt;
+  line-height: 1.2;
+}
+
+/* circle photos */
+
+.img-circle {
+    border-radius: 50%;
+}

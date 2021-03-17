@@ -1,0 +1,93 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Polarization and Political Trust"
+theme = "blackburn"
+author = "Marta Kołczyńska"
+email = "mkolczynska@gmail.com"
+copyright = "&copy; 2021. Marta Kołczyńska"
+canonifyurls = true
+paginate = 10
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "In cross-national perspective"
+  brand = "PPT"
+  # googleAnalytics = "Your Google Analytics tracking ID"
+  # disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+  highlightjsLang = ["r", "yaml"]
+  highlightjsTheme = "github"
+  dateFormat = "02 Jan 2006, 15:04"
+  custom_css = ["css/custom.css"]
+  
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-info fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Data"
+    pre = "<i class='fa fa-chart-bar fa-fw'></i>"
+    weight = 3
+    identifier = "data"
+    url = "/data/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 4
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-envelope fa-fw'></i>"
+    weight = 5
+    identifier = "contact"
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter="MartaKolcz"
+  # gnusocial="*"
+  # facebook="*"
+  # weibo="*"
+  # tumblr="*"
+  # instagram="*"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+  # linkedin="*"
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="mkolczynska"
+  # gitlab="*"
+  # bitbucket="*"
+  # stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  # keybase="*"

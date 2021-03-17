@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>welcome on Polarization and Political Trust</title>
+    <link>/tags/welcome/</link>
+    <description>Recent content in welcome on Polarization and Political Trust</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
+    <lastBuildDate>Thu, 05 Mar 2020 19:18:00 +0000</lastBuildDate><atom:link href="/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>/post/welcome/</link>
+      <pubDate>Thu, 05 Mar 2020 19:18:00 +0000</pubDate>
+      
+      <guid>/post/welcome/</guid>
+      <description>Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
+You can learn more about the project and about the source data.
+The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.</description>
+    </item>
+    
+  </channel>
+</rss>
