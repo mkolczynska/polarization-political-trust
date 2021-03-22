@@ -9,6 +9,10 @@ output:
     toc: true
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
 Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
 
 You can learn more [about the project](/about/) and about the source [data](/data/).
