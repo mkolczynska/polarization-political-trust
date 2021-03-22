@@ -28,5 +28,16 @@ In particular, I collected survey metadata in form of data dictionaries or codeb
 This information, for 13 cross-national survey projects listed here, from 1939 national surveys from 39 European countries, is provided in this file:</description>
     </item>
     
+    <item>
+      <title>Welcome</title>
+      <link>/post/first-post/</link>
+      <pubDate>Fri, 06 Mar 2020 17:48:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
+You can learn more about the project and about the source data.
+The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.</description>
+    </item>
+    
   </channel>
 </rss>
