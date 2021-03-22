@@ -1,0 +1,20 @@
+---
+title: "Harmonization toolbox"
+author: "Marta Kołczyńska"
+date: 2021-03-11T21:26:00
+topic: ["data"]
+tags: ["data availability"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+This [github repository](https://github.com/mkolczynska/harmonization-toolbox) contains resources for secondary analysis of data from cross-national survey projects, including ex-post survey data harmonization.
+
+In particular, I collected survey metadata in form of data dictionaries or codebooks, from two major cross-national survey projects: the [Eurobarometer](https://www.gesis.org/en/eurobarometer-data-service/home) and the [International Social Survey Programme](http://w.issp.org/menu-top/home/), which are available [here](https://github.com/mkolczynska/harmonization-toolbox/tree/master/survey-metadata).
+
+

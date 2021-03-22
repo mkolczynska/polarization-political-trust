@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/post/political-trust-items/</loc>
-    <lastmod>2020-03-11T12:46:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/data-availability/</loc>
-    <lastmod>2020-03-11T12:46:00+00:00</lastmod>
+    <lastmod>2021-03-11T21:26:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/harmonization-toolbox/</loc>
+    <lastmod>2021-03-11T21:26:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2020-03-11T12:46:00+00:00</lastmod>
+    <lastmod>2021-03-11T21:26:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2020-03-11T12:46:00+00:00</lastmod>
+    <lastmod>2021-03-11T21:26:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2021-03-11T21:26:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/political-trust-items/</loc>
     <lastmod>2020-03-11T12:46:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
@@ -26,10 +29,10 @@
     <loc>/data/</loc>
     <lastmod>2020-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/welcome/</loc>
+    <loc>/tags/welcome/</loc>
     <lastmod>2020-03-05T19:18:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/welcome/</loc>
+    <loc>/post/welcome/</loc>
     <lastmod>2020-03-05T19:18:00+00:00</lastmod>
   </url><url>
     <loc>/topics/</loc>
