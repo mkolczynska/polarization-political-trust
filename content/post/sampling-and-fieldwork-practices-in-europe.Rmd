@@ -1,0 +1,23 @@
+---
+title: "Samping and fieldwork practices in Europe"
+author: "Marta Kołczyńska"
+date: 2020-10-01T23:33:08
+topic: ["data"]
+tags: ["data quality", "survey quality"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+A new paper, written by Piotr Jabkowski and Marta Kołczyńska and titled "Sampling and Fieldwork Practices in Europe: Analysis of Methodological Documentation From 1,537 Surveys in Five Cross-National Projects, 1981-2017", was published in the journal Methodology-European Journal of Research Methods for the Behavioral and Social Sciences. From the abstract:
+
+> *This article addresses the comparability of sampling and fieldwork with an analysis of methodological data describing 1,537 national surveys from five major comparative cross-national survey projects in Europe carried out in the period from 1981 to 2017. We describe the variation in the quality of the survey documentation, and in the survey methodologies themselves, focusing on survey procedures with respect to: 1) sampling frames, 2) types of survey samples and sampling designs, 3) within-household selection of target persons in address-based samples, 4) fieldwork execution and 5) fieldwork outcome rates. Our results show substantial differences in sample designs and fieldwork procedures across survey projects, as well as changes within projects over time. This variation invites caution when selecting data for analysis. We conclude with recommendations regarding the use of information about the survey process to select existing survey data for comparative analyses..*
+
+The full open access paper is available [here](https://meth.psychopen.eu/index.php/meth/article/view/2795){target="_blank"}.
+
+Supplementary materials include data with coded characteristics of surveys from (1) the Eurobarometer (EB) from the years between 2001-2017, including three autumn rounds conducted in the years 2001-2003 in the Candidate Countries Eurobarometer (CCEB) project, (2) four editions of the European Quality of Life Survey(EQLS) from 2003, 2007, 2011 and 2016, (3) eight rounds of the European Social Survey(ESS) carried out biennially since 2002, (4) four editions of the European Values Study(EVS) from 1981, 1990, 1999 and 2008, and (5) thirty-one editions of the InternationalSocial Survey Programme (ISSP), 
+and are available [here](https://doi.org/10.23668/psycharchives.3461){target="_blank"}.

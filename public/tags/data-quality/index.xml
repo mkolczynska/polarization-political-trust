@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data quality on Polarization and Political Trust</title>
+    <link>/tags/data-quality/</link>
+    <description>Recent content in data quality on Polarization and Political Trust</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
+    <lastBuildDate>Sun, 10 Oct 2021 16:07:44 +0000</lastBuildDate><atom:link href="/tags/data-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-project assessments of sample quality</title>
+      <link>/post/multiproject-assessments-of-sample-quality/</link>
+      <pubDate>Sun, 10 Oct 2021 16:07:44 +0000</pubDate>
+      
+      <guid>/post/multiproject-assessments-of-sample-quality/</guid>
+      <description>A new paper, authored by Piotr Jabkowski, Piotr Cichocki, and Marta Kołczyńska and titled “Multi-Project Assessments of Sample Quality in Cross-National Surveys: The Role of Weights in Applying External and Internal Measures of Sample Bias”, was published in the Journal of Survey Statistics and Methodology. From the abstract:
+This paper examines existing methods of evaluating sample quality, showing that their practical utility and applicability to large-scale cross-project comparisons depends on whether they require auxiliary individual-level data.</description>
+    </item>
+    
+    <item>
+      <title>Samping and fieldwork practices in Europe</title>
+      <link>/post/sampling-and-fieldwork-practices-in-europe/</link>
+      <pubDate>Thu, 01 Oct 2020 23:33:08 +0000</pubDate>
+      
+      <guid>/post/sampling-and-fieldwork-practices-in-europe/</guid>
+      <description>A new paper, written by Piotr Jabkowski and Marta Kołczyńska and titled “Sampling and Fieldwork Practices in Europe: Analysis of Methodological Documentation From 1,537 Surveys in Five Cross-National Projects, 1981-2017”, was published in the journal Methodology-European Journal of Research Methods for the Behavioral and Social Sciences. From the abstract:
+This article addresses the comparability of sampling and fieldwork with an analysis of methodological data describing 1,537 national surveys from five major comparative cross-national survey projects in Europe carried out in the period from 1981 to 2017.</description>
+    </item>
+    
+  </channel>
+</rss>

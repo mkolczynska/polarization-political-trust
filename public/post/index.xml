@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
-    <lastBuildDate>Thu, 11 Mar 2021 21:26:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 14:15:42 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Political Parties Crosswalk</title>
+      <link>/post/political-parties-crosswalk/</link>
+      <pubDate>Tue, 15 Mar 2022 14:15:42 +0000</pubDate>
+      
+      <guid>/post/political-parties-crosswalk/</guid>
+      <description>A new data note, authored by Marta Kołczyńska and Przemek Powałko, published in the journal Political Research Exchange, presents the Political Parties Crosswalk. From the abstract:
+The Political Parties Crosswalk (PPC) maps party codes used in questions about party preferences in European cross-national public opinion surveys to Party Facts IDs, which are commonly used identifiers of parties in political science datasets. The PPC, a data linkage tool, supports research that combines data on party support from surveys with characteristics of parties, and in particular, facilitates research that combines data from different survey projects.</description>
+    </item>
+    
+    <item>
+      <title>Multi-project assessments of sample quality</title>
+      <link>/post/multiproject-assessments-of-sample-quality/</link>
+      <pubDate>Sun, 10 Oct 2021 16:07:44 +0000</pubDate>
+      
+      <guid>/post/multiproject-assessments-of-sample-quality/</guid>
+      <description>A new paper, authored by Piotr Jabkowski, Piotr Cichocki, and Marta Kołczyńska and titled “Multi-Project Assessments of Sample Quality in Cross-National Surveys: The Role of Weights in Applying External and Internal Measures of Sample Bias”, was published in the Journal of Survey Statistics and Methodology. From the abstract:
+This paper examines existing methods of evaluating sample quality, showing that their practical utility and applicability to large-scale cross-project comparisons depends on whether they require auxiliary individual-level data.</description>
+    </item>
+    
     <item>
       <title>Harmonization toolbox</title>
       <link>/post/harmonization-toolbox/</link>
@@ -16,6 +36,16 @@
       <guid>/post/harmonization-toolbox/</guid>
       <description>This github repository contains resources for secondary analysis of data from cross-national survey projects, including ex-post survey data harmonization.
 In particular, I collected survey metadata in form of data dictionaries or codebooks, from two major cross-national survey projects: the Eurobarometer and the International Social Survey Programme, which are available here.</description>
+    </item>
+    
+    <item>
+      <title>Samping and fieldwork practices in Europe</title>
+      <link>/post/sampling-and-fieldwork-practices-in-europe/</link>
+      <pubDate>Thu, 01 Oct 2020 23:33:08 +0000</pubDate>
+      
+      <guid>/post/sampling-and-fieldwork-practices-in-europe/</guid>
+      <description>A new paper, written by Piotr Jabkowski and Marta Kołczyńska and titled “Sampling and Fieldwork Practices in Europe: Analysis of Methodological Documentation From 1,537 Surveys in Five Cross-National Projects, 1981-2017”, was published in the journal Methodology-European Journal of Research Methods for the Behavioral and Social Sciences. From the abstract:
+This article addresses the comparability of sampling and fieldwork with an analysis of methodological data describing 1,537 national surveys from five major comparative cross-national survey projects in Europe carried out in the period from 1981 to 2017.</description>
     </item>
     
     <item>
@@ -34,17 +64,6 @@ This information, for 13 cross-national survey projects listed here, from 1939 n
       <pubDate>Fri, 06 Mar 2020 17:48:00 +0000</pubDate>
       
       <guid>/post/first-post/</guid>
-      <description>Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
-You can learn more about the project and about the source data.
-The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.</description>
-    </item>
-    
-    <item>
-      <title>Welcome!</title>
-      <link>/post/welcome/</link>
-      <pubDate>Thu, 05 Mar 2020 19:18:00 +0000</pubDate>
-      
-      <guid>/post/welcome/</guid>
       <description>Welcome to the project “Causes and Consequences of Political Trust: Polarization and Democratic Utility of Trust in Cross-national Perspective”.
 You can learn more about the project and about the source data.
 The project is funded by the National Science Centre under grant number 2019/32/C/HS6/00421.</description>

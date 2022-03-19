@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021. Marta Kołczyńska</copyright>
-    <lastBuildDate>Thu, 11 Mar 2021 21:26:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 14:15:42 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data availability, data harmonization</title>
+      <link>/tags/data-availability-data-harmonization/</link>
+      <pubDate>Tue, 15 Mar 2022 14:15:42 +0000</pubDate>
+      
+      <guid>/tags/data-availability-data-harmonization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data quality</title>
+      <link>/tags/data-quality/</link>
+      <pubDate>Sun, 10 Oct 2021 16:07:44 +0000</pubDate>
+      
+      <guid>/tags/data-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>survey quality</title>
+      <link>/tags/survey-quality/</link>
+      <pubDate>Sun, 10 Oct 2021 16:07:44 +0000</pubDate>
+      
+      <guid>/tags/survey-quality/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data availability</title>
       <link>/tags/data-availability/</link>
       <pubDate>Thu, 11 Mar 2021 21:26:00 +0000</pubDate>
       
       <guid>/tags/data-availability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>welcome</title>
-      <link>/tags/welcome/</link>
-      <pubDate>Thu, 05 Mar 2020 19:18:00 +0000</pubDate>
-      
-      <guid>/tags/welcome/</guid>
       <description></description>
     </item>
     

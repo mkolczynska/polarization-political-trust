@@ -1,0 +1,22 @@
+---
+title: "Multi-project assessments of sample quality"
+author: "Marta Kołczyńska"
+date: 2021-10-10T16:07:44
+topic: ["data"]
+tags: ["data quality", "survey quality"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+A new paper, authored by Piotr Jabkowski, Piotr Cichocki, and Marta Kołczyńska and titled "Multi-Project Assessments of Sample Quality in Cross-National Surveys: The Role of Weights in Applying External and Internal Measures of Sample Bias", was published in the Journal of Survey Statistics and Methodology. From the abstract:
+
+> *This paper examines existing methods of evaluating sample quality, showing that their practical utility and applicability to large-scale cross-project comparisons depends on whether they require auxiliary individual-level data. Among those methods that do not demand any such additional data, we differentiate between two approaches that rely on (i) external criteria, that is, comparisons of sample estimates to benchmarks derived from external population statistics, and (ii) internal criteria, that is, comparisons of subsample estimates to a theoretically derived aprioristic value. Our analyses demonstrate the advantages and limitations of both approaches based on an evaluation of 1,125 national surveys carried out in Europe between 2002 and 2016 within four survey projects: the Eurobarometer, European Quality of Life Survey, European Social Survey, and International Social Survey Programme. We show that the prevailing absence of design weights in cross-national survey datasets severely limits the applicability of external criteria evaluations. In contrast, using internal criteria without any weights proves acceptable because incorporating design weights in calculations of internal sample quality has only minor consequences for estimates of sample bias. Furthermore, applying internal criteria, we find that around 75 percent of samples in the four analyzed projects are not significantly biased. We also identify surveys with extremely high sample bias and investigate its potential sources. The paper concludes with recommendations regarding future research, which are directed at secondary data users, as well as producers of cross-national surveys.*
+
+The full open access paper is available [here](https://academic.oup.com/jssam/advance-article/doi/10.1093/jssam/smab027/6380639){target="_blank"}, Poland thanks to fundings from the Adam Mickiewicz University in Poznań, Poland.
+
+Replication and supplementary materials are available in this Open Science Framework [repository](https://osf.io/f9g7s/){target="_blank"}.
