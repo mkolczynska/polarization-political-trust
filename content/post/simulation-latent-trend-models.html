@@ -1,0 +1,52 @@
+---
+title: "Modeling public opinion over time: A simulation study of latent trend models"
+author: "Marta Kołczyńska"
+date: 2023-05-20T09:23:46
+topic: ["polarization"]
+tags: ["latent trend models", "public opinion", "splines", "irt", "Gaussian processes", "political trust", "survey data"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>In a new paper titled “Modeling public opinion over time: A simulation study of latent trend models” and forthcoming in the <a href="https://academic.oup.com/jssam" target="_blank">Journal of Survey Statistics and Methodology</a>, Paul Bürkner and Marta Kołczyńska propose a framework for the estimation of trends in mass public opinion based on survey data distinguishing three components: (1) the resonse model, (2) the latent trend model, and (3) representativeness adjustments. The paper focus on the second component, and compares four latent trend models that can be used for estimating trajectories of public opinion: (a) thin-plate splines, (b) Gaussian processes, (c) autoregressive models of order one, and (d) their special case, random walk models.</p>
+<p>From the abstract:</p>
+<blockquote>
+<p><em>With growing availability of multi-wave surveys, social scientists are
+turning to latent trend models to examine changes
+in social and political attitudes. Aiming to facilitate this research,
+we propose a framework for estimating trends in public opinion consisting
+of three components: the measurement model that links the observed
+survey responses to the latent attitude, the latent trend
+model that estimates a trajectory based on aggregated individual latent scores,
+and representativeness adjustments. We use individual-level
+item response theory models as the measurement model that is tailored
+to analyzing public opinion based on pooled data from multi-wave surveys.
+The main part of our analysis focuses on the second component
+of our framework, the latent trend models, and compares four
+approaches: thin-plate splines, Gaussian processes,
+random walk models and autoregressive models. We examine the
+ability of these models to recover latent trends with simulated data
+that vary the shape of the true trend, model complexity, and data availability.
+Overall, under the conditions of our simulation study,
+we find that all four latent trend models perform well.
+We find two main performance differences: the relatively higher squared
+errors of autoregressive and random walk models, and the under-coverage of posterior
+intervals in high-frequency low-amplitude
+trends with thin-plate splines. For all models and across
+all scenarios, performance improves with increased data availability, which
+emphasizes the need of supplying sufficient data for accurate estimation of
+latent trends. To further illustrate the differences between the four
+latent trend models, we present a case study with an analysis of trends
+in political trust in Hungary, Poland, and Spain between 1995 and 2019.
+We note the relatively weaker performance of splines compared to other models
+in this application, and conclude by discussing factors to consider when
+choosing the latent trend model, and further opportunities in this
+line of research.</em></p>
+</blockquote>
+<p>The preprint is available <a href="https://osf.io/preprints/socarxiv/gauvx/" target="_blank">on SocArXiv</a>.</p>
+<p>Replication materials (data and code) are available in this Open Science Framework <a href="https://osf.io/j45er/" target="_blank">repository</a>.</p>
+<p>The full paper is available <a href="https://doi.org/10.1093/jssam/smad024" target="_blank">here</a>.</p>

@@ -3,7 +3,7 @@ title: "Seeing the world through party-tinted glasses"
 author: "Marta Kołczyńska"
 date: 2022-07-29T21:51:33
 topic: ["polarization"]
-tags: ["polarization", "political trust"]
+tags: ["polarization", "political trust", "Poland", "Polish Panel Survey"]
 output: 
   blogdown::html_page:
     toc: true
@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-A new paper, co-authored by Marta Kołczyńska and [Ireneusz Sadowski](http://www.spoleczenstwo.pl/sadowski/){target="_blank"}, published in the journal [Acta Politica](https://www.palgrave.com/gp/journal/41269){target="_blank"}, analyzes the effects of electoral winner or loser status and performance evaluations on political trust in Poland, in the context of increasing political polarization. From the abstract:
+A new paper, co-authored by Marta Kołczyńska and [Ireneusz Sadowski](http://www.spoleczenstwo.pl/sadowski/){target="_blank"}, published in the journal [Acta Politica](https://www.palgrave.com/gp/journal/41269){target="_blank"}, analyzes the effects of electoral winner or loser status and performance evaluations on political trust in Poland, in the context of increasing political polarization. From the abstract:  
 
 > *Individuals with more favorable evaluations of government performance exhibit higher trust in the political system. People also tend to put more confidence in political institutions led by the party they support or identify with. This paper examines the relative importance of these two factors—performance evaluation and electoral winner status—on political trust in the context of strong, and increasing, partisan polarization. Based on the motivated reasoning thesis, we hypothesize that the winner effect and performance evaluations are intertwined, and voters’ evaluations of government performance are filtered through ‘party-tinted glasses.’ Our analysis relies on two waves of the Polish Panel Survey carried out in 2013 and 2018, i.e., before and after the 2015 parliamentary election, which brought a clear shift in power. Results of fixed-effects models show that electoral winner status has a substantial effect on trust in parliament both directly and indirectly, via performance evaluations. We further find that winner status moderates the effect of evaluations of economic performance on trust in parliament: trust among winners is less dependent on evaluations of the economy than among losers and non-voters. We interpret these findings in the context of high and increasing polarization in Poland.*
 

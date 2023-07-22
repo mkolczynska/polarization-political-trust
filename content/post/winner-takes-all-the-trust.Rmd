@@ -1,0 +1,22 @@
+---
+title: "The winner takes all the trust"
+author: "Marta Kołczyńska"
+date: 2023-02-20T13:51:41
+topic: ["polarization"]
+tags: ["polarization", "political trust", "European Social Survey"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+A new paper titled "The winner takes all the trust: populism, democracy, and winner-loser gaps in political trust in Central and Southern Europe", published in the [Journal of Contemporary European Studies](https://www.tandfonline.com/journals/cjea20){target="_blank"}, analyzes the effects of the status of the supported political party (whether it is government leader, junior coalition partner, or in the opposition) and the party's level of populism, on people's political trust. From the abstract:
+  
+  > *Studies typically find that supporters of populist parties exhibit low political trust. Drawing on research on winner-loser gaps in political support and the consequences of political polarization on attitudes, I re-examine the association between populism and political trust taking into account the supported party’s status in or outside of government, distinguishing between government leaders and junior coalition partners. I analyze data from the European Social Survey Rounds 1–9 from nine Central and Southern European countries that experienced populist parties as government leaders, combined with party characteristics from the Varieties of Party Identity and Organization as well as democracy scores from the Varieties of Democracy datasets. Results show that the effect of party status on political trust is stronger among supporters of populist than non-populist parties. Further, I find that supporters of populist governments enjoy greater trust advantages in less democratic contexts.*
+  
+The full paper is available [here](https://www.tandfonline.com/doi/full/10.1080/14782804.2022.2162486){target="_blank"}.
+
+Replication materials (data and code) are available in this Open Science Framework [repository](https://osf.io/7j3ua/){target="_blank"}.
