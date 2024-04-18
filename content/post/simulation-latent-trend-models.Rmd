@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-In a new paper titled "Modeling public opinion over time: A simulation study of latent trend models" and forthcoming in the [Journal of Survey Statistics and Methodology](https://academic.oup.com/jssam){target="_blank"}, Paul Bürkner and Marta Kołczyńska propose a framework for the estimation of trends in mass public opinion based on survey data distinguishing three components: (1) the resonse model, (2) the latent trend model, and (3) representativeness adjustments. The paper focus on the second component, and compares four latent trend models that can be used for estimating trajectories of public opinion: (a) thin-plate splines, (b) Gaussian processes, (c) autoregressive models of order one, and (d) their special case, random walk models.
+In a new paper titled "Modeling public opinion over time: A simulation study of latent trend models" and forthcoming in the [Journal of Survey Statistics and Methodology](https://academic.oup.com/jssam){target="_blank"}, Paul Bürkner and Marta Kołczyńska propose a framework for the estimation of trends in mass public opinion based on survey data distinguishing three components: (1) the response model, (2) the latent trend model, and (3) representativeness adjustments. The paper focus on the second component, and compares four latent trend models that can be used for estimating trajectories of public opinion: (a) thin-plate splines, (b) Gaussian processes, (c) autoregressive models of order one, and (d) their special case, random walk models.
 
 From the abstract:
   
