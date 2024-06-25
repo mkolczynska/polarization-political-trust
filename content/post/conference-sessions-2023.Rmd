@@ -1,0 +1,72 @@
+---
+title: "Conference sessions at the ISA Congress and ESRA conference"
+author: "Marta Kołczyńska"
+date: 2023-07-25T09:32:36
+topic: ["conference"]
+tags: ["data quality", "data harmonization"]
+output: 
+  blogdown::html_page:
+    toc: true
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+Sessions devoted to survey data harmonization and quality were organized by Marta Kołczyńska together with Piotr Cichocki and Piotr Jabkowski at two conferences:  
+
+### [European Survey Research Association conference](https://www.europeansurveyresearch.org/conference/milan-2023/) Survey research in times of crisis: Challenges, opportunities, and new directions, 17-21 July, Milan
+
+Papers:  
+
+*Multidimensional Deprivation Index using Data Integration Approaches in Small Area Estimation: A Colombian Case Study*  
+Dr Angelo Moretti (Utrecht University) - Presenting Author  
+Dr Alejandra Arias-Salazar (Freie Universitat Berlin)  
+Dr Natalia Rojas-Perilla (United Arab Emirates University)  
+
+*Training in times of crisis – The interrelation of further training investments and business-cycle effects*  
+Ms Marion Thiele (Federal Institute for Vocational Training and Education (BIBB))  
+Ms Myriam Baum (Federal Institute for Vocational Training and Education (BIBB)) - Presenting Author   
+Dr Dominik Becker (Federal Institute for Vocational Training and Education (BIBB))  
+Professor Harald Pfeifer (Federal Institute for Vocational Training and Education (BIBB))  
+
+*Validation of a Survey-to-Survey Imputation Approach to Filling Poverty Data Gaps at Low Cost: Evidence from a Randomized Survey Experiment*  
+Dr Hai-Anh Dang (World Bank)  
+Dr Talip Kilic (World Bank) - Presenting Author  
+Dr Vladimir Hlasny (United Nations Economic and Social Commission for Western Asia)  
+Dr Calogero Carletto (World Bank)  
+Dr Kseniya Abanokova (World Bank)  
+
+*A controlled vocabulary for a Social Sciences knowledge graph: better definition of relationships*  
+Dr Janete Saldanha Bach (GESIS – Leibniz Institute for the Social Sciences) - Presenting Author  
+Dr Claus-Peter Klas (GESIS – Leibniz Institute for the Social Sciences)  
+
+*To what extent do supply and demand meet in politics? Comparing databases for the 2022 Italian General Elections*  
+Professor Maria Paola Faggiano (Sapienza - University of Rome)  
+Dr Michela Cavagnuolo (Sapienza - University of Rome) - Presenting Author  
+Dr Viviana Capozza (Sapienza - University of Rome)  
+
+### [XX International Sociological Association World Congress in Sociology](https://www.isa-sociology.org/en/conferences/world-congress/melbourne-2023), Melbourne, 25 June-1 July
+
+Papers:
+
+*Using Comparative Survey Data to Describe the Religious Heterogeneity of Societies - a Test Application*
+Markus QUANDT, GESIS Leibniz Institute for the Social Sciences, Germany
+
+*Combining Research Grade Accelerometers, Activity Trackers and Survey Data to Measure Physical Activity*
+Vera TOEPOEL, Utrecht University, Netherlands and Anne ELEVELT, CBS, Netherlands
+
+*Maximizing Linkage and Panel Consent Using Repeated Queries with Varying Framings*
+Sebastian HÜLLE, Institute for Employment Research (IAB), Germany
+
+*Of the Same World? Methodological Challenges When Integrating Survey, Epidemiological and Social Media Data*
+Philip ADEBAHR, Manuel HOLZ, Peter KRIWY and Jochen MAYERL, University of Technologie Chemnitz, Germany
+
+*Straying on the Limits of Equivalence. Case Study in Dilemma of International Value Comparison*
+Ireneusz SADOWSKI, Institute of Political Sciences, Polish Academy of Sciences, Poland
+
+*Obstacles in Conducting Valuable Analysis Based on Data from Multiple Sources. a Case Study of Methodological and Technical Challenges in Multilevel Cross-National Analyses on Attitudes Toward the Environment*
+Piotr JABKOWSKI, Faculty of Sociology, Adam Mickiewicz University, Poznan, Poland
+
+*Modeling Macro-Level Public Opinion: Challenges and Opportunities*
+Marta KOLCZYNSKA, Polish Academy of Sciences, Poland
