@@ -49,6 +49,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     identifier = "data"
     url = "/data/"
   [[menu.main]]
+    name = "Materials"
+    pre = "<i class='fa fa-file fa-fw'></i>"
+    weight = 4
+    identifier = "materials"
+    url = "/materials/"
+  [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 4
